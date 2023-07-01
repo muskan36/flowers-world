@@ -1,0 +1,271 @@
+ *{
+   margin: 0px;
+   border:0px;
+box-sizing: border-box;
+ }
+ #navbar {
+   background-color:black;  
+   
+   position:fixed;
+   width: 1540px;
+   height:50px;
+   top: 0;
+   
+ }/*position: sticky;*/
+  .mid{
+      margin-top: 6vh;
+  }
+ 
+  .bg{
+   
+   background: url('darren-nunis-cxE7SXKnzv0-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-size:1540px ;
+   height:1050px;
+   
+}
+ul{
+   overflow: auto;
+}
+li{
+   float:left;
+   list-style: none;
+   color:blanchedalmond;
+   margin: 13px 20px;
+}   
+
+
+a{
+   padding:3px 3px;
+   text-decoration: none ;
+   color: blanchedalmond;
+}
+a:hover{
+   color:orange;
+}
+
+input{
+  border:2px solid black; 
+border-radius: 10px;
+  padding: 5px 17px; 
+  width:129px;
+}
+
+.search{
+   float: right;
+   color: white;
+   padding: 10px 20px;
+}
+.footer{
+position: fixed;
+bottom: 0%;
+width: 100%;
+height: 5vh;
+background:rgb(56, 54, 54);
+color: aliceblue;
+text-align: center;
+padding-top: 4px;
+}
+
+
+.primary{
+   text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 50px;
+   padding-top: 15px;
+}
+
+.para{
+   
+   width:1000px;
+   
+   margin-left: 250px ;
+   margin-top: 20px;
+  
+   padding:20px 50px;
+   background-color: white;
+   opacity: 0.4;
+}
+p{
+   font-size:20px;
+   color:black;
+   font-weight: 500;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center; 
+}
+
+.btn{
+   margin-left: 600px;
+   margin-top: 20px;
+   
+
+}
+a:visited{
+   background-color:yellowgreen;   
+}
+
+a:active{
+   background-color: aquamarine; 
+}
+
+.btn1:hover{
+   color:darkolivegreen;
+   background-color: bisque;
+   
+}
+.btn1{
+
+   background:none;
+   color:rgb(32, 4, 68);
+   padding: 9px;
+   border: none;
+   cursor: pointer;
+   border:1px solid rgb(227, 205, 255);
+   font-size: 15px;
+   border-radius: 10px;
+}
+
+
+
+.f{
+   background-image: url('pexels-andrew-patrick-13408190.jpg');
+  /* background-color:gray;*/
+   background-size: 1540px;
+   height:900px;
+}
+
+.fa{
+   text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   padding:20px;
+   margin-top: 6vh;
+}
+
+#fact li{
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:5px 10px;
+    color:rgb(34, 75, 5)
+
+}
+
+.g{
+   /*border: 2px solid black;*/
+display:block;
+   background-color:white ;
+   opacity:0.4 ;
+   margin-top: 5vh;
+   padding:20px 20px;
+   height:700px;
+   width: 700px;
+   margin-left: 420px;
+border-radius: 10px;
+margin-top: 0%;
+}
+
+#lan{
+   background-image: url('pexels-ralph-11281730.jpg');
+   background-repeat: no-repeat;
+   background-size:1540px ;
+   height:1050px;
+   
+}
+
+.name{
+   text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   padding:20px;
+   margin-top: 6vh;
+
+}
+
+#diff{
+   background-color:white ;
+   opacity:0.4 ;
+   margin-top: 5vh;
+   padding:10px 20px;
+   height:500px;
+   width: 700px;
+   margin-left: 420px;
+border-radius: 10px;
+margin-top: 0%;
+
+}
+
+#diff li{
+   font-size:15px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding:5px 10px;
+   color:rgb(19, 43, 2);
+}
+
+.contact{
+   background:url('debby-hudson-l0yBzdYk0GM-unsplash.jpg');
+   background-size: 1520px;
+   height: 1050px;
+ 
+}
+   #ct{
+   color:black;
+  /* background-color: white;*/
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding:15px;
+   text-align: center;
+   /*background-color: rgb(71, 240, 240);*/
+   margin-top:6vh;
+
+   
+}
+.btn2{
+   background-color:white;
+   color:black;
+   padding: 9px;
+   border: none;
+   cursor: pointer;
+   border:1px solid rgb(31, 2, 69);
+   font-size: 15px;
+   border-radius: 20px;
+   margin-left: 700px;
+   margin-top:15px ;
+   margin-bottom: 15px;
+   /*background-color: white;*/
+  opacity: 0.6;
+}
+
+.src{
+   width:35px; 
+   display:block;
+   margin: auto;
+   margin-top:30px;
+   margin-left: 770px;
+}
+
+.btn2:hover{
+   color:rgb(46, 71, 4);
+   background-color: rgb(164, 208, 240);
+}
+
+.body{
+   background:url('no-revisions-4tCRA93iBVo-unsplash.jpg');
+   background-size: 1540px;
+   height: 1050px;
+ 
+}
+
+.abt{
+   color:black;
+   /*background-color: white;*/
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding:15px;
+   text-align: center;
+   /*background-color: rgb(71, 240, 240);*/
+   margin-top:6vh;
+
+   
+}
+
+
